@@ -3,8 +3,8 @@
 const express = require('express');
 
 // Constants
-const PORT = 443;
-const HOST = '0.0.0.0';
+const PORT = 5000;
+const HOST = 'asice-viewer.eu';
 
 // App
 const app = express();
