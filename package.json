@@ -1,0 +1,26 @@
+{
+  "name": "asice-viewer",
+  "version": "1.0.0",
+  "description": "ASiCE File Viewer",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vilmospapp/asice-viewer.git"
+  },
+  "keywords": [
+    "ASiCE",
+    "Viewer"
+  ],
+  "author": "Vilmos Papp",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/vilmospapp/asice-viewer/issues"
+  },
+  "homepage": "https://github.com/vilmospapp/asice-viewer#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
