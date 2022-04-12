@@ -4,7 +4,7 @@ const express = require('express');
 
 // Constants
 const PORT = 5000;
-const HOST = 'asice-viewer.eu';
+const HOST = 'localhost';
 
 // App
 const app = express();
