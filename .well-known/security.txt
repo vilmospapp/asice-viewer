@@ -1,0 +1,12 @@
+# Information related to reporting security vulnerabilities of this site.
+
+# How to communicate about security issues.
+Contact: mailto:papp.gyorgy.vilmos[at]gmail.com
+Subject: [asive-viewer.eu - security issue]
+
+
+# Preferred languages for communication.
+Preferred-Languages: en, hu
+
+# The most common URL for accessing this security.txt file.
+Canonical: http://asice-viewer.eu/.well-known/security.txt
