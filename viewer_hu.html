@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <title>ASiCE Fájl megjelenítő</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="css/templatemo.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/jszip.js"></script>
+    <script type="text/javascript" src="js/jszip-utils.js"></script>
+    <script src="https://kit.fontawesome.com/a43e5ad604.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+      <div class="header">
+        <h1><a class="header" href="//asice-viewer.eu"><i class="fas fa-file"></i> ASiCE Viewer</a></h1>
+      </div>      
+  </nav>
+  
+    <div class="container fixed-height">  
+      <h3>Megnyitandó ASiCE fájl kiválasztása:</h3>
+      <br />
+      <div class="upload-btn-wrapper">
+        <button class="btn-asice">Kiválaszt...</button>
+        <input type="file" name="file" id="file" />
+      </div>
+      <div id="fileDetails" class="hidden details">
+        
+        <input type="hidden" id="loadedFileText" value='Betöltött fájl' />
+        
+        <div id="result">
+          <span id="note" class="hidden">Kattings a megtekintendő PDFre!</span>
+        </div>
+        
+      </div>
+      <div class="asice-display">
+        <div id="pdf"></div>
+      </div>  
+    </div>
+    <div style="position: relative;">
+      <footer class="bg-dark" id="tempaltemo_footer">
+        <div class="w-100 bg-black py-3">
+          <div class="container">
+              <div class="row pt-2">
+                  <div class="col-12">
+                      <p class="text-left text-light">
+                          Copyright &copy; 2022 <strong>
+                            <a class="navbar-sm-brand text-light text-decoration-none" href="#" id="ea"><i class="fa fa-envelope mx-2"></i> Vilmos Papp</a></strong> &nbsp;
+                            <a class="text-light" href="https://twitter.com/_vilmospapp" target="_blank"><i class="fa-brands fa-twitter"></i></a>&nbsp;
+                          | Designed by <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </footer>
+    </div>
+    <script src="js/templatemo.js"></script>
+    <script src="js/custom.js"></script>
+    <script type="text/javascript" src="js/asice.js"></script>
+  </body>
+</html>
