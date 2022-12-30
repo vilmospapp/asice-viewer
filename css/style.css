@@ -2631,9 +2631,6 @@ table {
     width: 100%;
 }
 
-td {
-    min-width: 40%;
-}
 .middle {
     width: 20px !important;
     min-width: 20px !important;
