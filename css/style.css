@@ -2636,6 +2636,7 @@ td {
 }
 .middle {
     width: 20px !important;
+    min-width: 20px !important;
 }
 
 span.title {
