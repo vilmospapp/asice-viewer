@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: 
+Disallow: /js/
+Disallow: /css/
+Disallow: /flags/
+Sitemap: http://asice-viewer.eu/sitemap.xml
