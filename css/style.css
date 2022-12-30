@@ -2625,3 +2625,20 @@ a.header {
 span.hidden {
     display:none;
 }
+
+table {
+    margin-top: 20px;
+    width: 100%;
+}
+
+td {
+    min-width: 40%;
+}
+.middle {
+    width: 20px !important;
+}
+
+span.title {
+    font-size: 32px;
+    font-weight: bold;
+}
