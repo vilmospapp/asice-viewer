@@ -72,9 +72,19 @@ for (var i = 0; i < files.length; i++) {
 function loadPDF(idx) {
     
   var zipEntry = pdfs[idx];
-  zipEntry.async('base64').then(function(fileData){
-    $("#pdf").html('<embed id="content" name="'+ zipEntry.name + '" style="width: 100%;height: 100%;" src="data:application/pdf;base64,'+ fileData + '">');       
-    });
+  let userAgent = navigator.userAgent;
+     
+   if(userAgent.match(/chrome|chromium|crios/i)){
+      zipEntry.async('base64').then(function(fileData){
+        $("#pdf").html('<embed id="content" name="'+ zipEntry.name + '" style="width: 100%;height: 100%;" src="data:application/pdf;base64,'+ fileData + '">');       
+      });
+    }
+    else {
+       zipEntry.async('blob').then(function(fileData){
+          var blobURL = window.URL.createObjectURL(fileData);
+          $("#pdf").html('<embed id="content" name="'+ zipEntry.name + '" style="width: 100%;height: 100%;" src="'+ blobURL + '" type="application/pdf">');       
+      });
+    }
 }
 
 function Util() {};
