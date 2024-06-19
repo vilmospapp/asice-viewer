@@ -2,7 +2,7 @@
 
 # How to communicate about security issues.
 Contact: mailto:papp.gyorgy.vilmos[at]gmail.com
-Subject: [asive-viewer.eu - security issue]
+Subject: [asice-viewer.eu - security issue]
 
 
 # Preferred languages for communication.
